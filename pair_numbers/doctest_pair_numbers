@@ -1,0 +1,11 @@
+
+>>> from pair_numbers import pair_numbers as pn
+
+>>> pn.pair_numbers([1,2,3,9], 8)
+False
+>>> pn.pair_numbers([1,2,4,4], 8)
+True
+>>> pn.pair_numbers2([1,2,3,9], 8)
+False
+>>> pn.pair_numbers2([1,2,4,4], 8)
+True
