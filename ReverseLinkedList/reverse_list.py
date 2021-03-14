@@ -7,7 +7,7 @@
 class LinkeList:
     def __init__(self, value):
         self.value = value
-        self.next = None # next element of the class LinkeList
+        self.next = None # next element of the class LinkeList that is being pointed by this element
 
 # None -> a -> b -> c -> d -> None
 # None -> d/ -> c -> b -> a -> None
