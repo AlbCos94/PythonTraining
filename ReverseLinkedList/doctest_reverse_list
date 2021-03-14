@@ -1,0 +1,17 @@
+>>> from ReverseLinkedList import reverse_list as rl
+
+>>> a = rl.LinkeList(3)
+>>> b = rl.LinkeList(7)
+>>> c = rl.LinkeList(9)
+>>> d = rl.LinkeList(11)
+>>> a.next = b
+>>> b.next = c
+>>> c.next = d
+>>> d.next = None
+>>> rl.ReverseLinkedList(a)
+>>> a.next
+>>> b.next.value
+3
+>>> c.next.value
+7
+
