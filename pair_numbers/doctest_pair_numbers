@@ -9,3 +9,24 @@ True
 False
 >>> pn.pair_numbers2([1,2,4,4], 8)
 True
+>>> pn.pair_numbers3([1,2,3,9], 8)
+False
+>>> pn.pair_numbers3([1,2,4,4], 8)
+True
+>>> pn.pair_numbers3([1,2,3,9], 8)
+False
+>>> pn.pair_numbers4_list_not_sorted([4,1,4,2], 8)
+True
+>>> pn.pair_numbers4_list_not_sorted([1,9,3,4,2,5,3,9,6,4], 8)
+True
+>>> pn.pair_numbers4_list_not_sorted([9,2,3,1], 8)
+False
+>>> pn.pair_numbers5_list_not_sorted([4,1,4,2], 8)
+True
+>>> pn.pair_numbers5_list_not_sorted([1,9,3,4,2,5,3,9,6,4], 8)
+True
+>>> pn.pair_numbers5_list_not_sorted([9,2,3,1], 8)
+False
+
+
+
