@@ -1,0 +1,57 @@
+ Jobs Programming
+
+Infrastructure
+- Sysadmin: managing, setting up, and keeping systems running
+- Dev-ops: creating & using tools that devevlopers use to manage systems
+- Network Engineer --> setting up, designing, and optimizing network infrastructures, TCP/IP and other layers of the network stack
+- Data Center Ops --> they keep "the cloud" running
+- Cable & Router Technicias
+- Database Administrators
+- Technical Support & Documentation --> they have to intereact with customers
+
+Backend
+- Full stack engineers --> a little of everything
+- Backend Application Development (rails, django (maybe interesting to learn django??), node, etc )
+- Project Management --> not always a technical role
+- Engineering Management --> usually former developers
+- Software Architects --> planning out features before they are coded
+- API Design --> designing the interfaces between systems
+- Security & Pentesting
+- Distributed System Architects --> dealing with consistency, availability, partition tolerance, timing, of large, globally-separated systems
+- Database Administrators (managing, maintaining, sharding, and migrating data stores, different from infrastructure-focused DBAs in that they are also writing backend code which interacts with the stores)
+
+Frontend
+- Full Stack --> a little bit of everything, but focused primarily on the pieces that support a frontend
+- UX/UI Frontend designers --> photoshop, indesign, sketch, html,, & css, etc. only)
+- General front end web development --> html, css, and jg
+- Single-page app development --> mostly with JS frameworks, e.g angular or react
+- Quality Assurance & Testing --> writing tests, doing human tests, making sure things work)
+
+Native
+- iOS, Android, WIndows Mobile
+- Consumer-facing Windows Desktop, OS X Desktop, Linux app development
+- Enterprise software development --> large, made-to-order application for businesses)
+- IT administration & admin software design --> often very system-specific, hence the Native category
+- Software Architecture --> similar to backend architecture, designing features before they are coded
+
+Science and Theory
+- Scientific Research --> Matlab, R and ipython and more
+- "Pure Compsci/Pure Math" Research --> haskell, lisp, lops more
+- Scientific Software Development --> protein folding software
+- Data science --> matlab, r, ipython, scikit-learn, etc
+- Machine Learning
+- OS Design (Operational System) --> not just microsoft, windows & linux, also qualcomm and lots of other telecoms hire tens of thousands of engineers to write embedded and mobile OSs
+
+Marketing
+- Growth hacking/web scraping --> selenium, beatifulsoup, phantomjs, scikit-learn, pattern, etc.
+- Analytics --> GA, mixpanel, optimizely, etc. closely tied with marketing and SEO.
+- SEO & SEM --> techniques for a search engine
+- General Marketing Development --> slaesforce, analytics, content-design, and SEO
+
+Hardware and Graphics
+- Embedded SOftware --> code that runs very close to the metal. e.g. the assembly code running your elevator
+- Chip Design & Architecture
+- Game Development
+- Graphics software development
+- 3D printing and machining coding
+- CGI & Animation
