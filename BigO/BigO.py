@@ -1,10 +1,12 @@
 # script to work with Big O analysis
 # Big O Notation is usefull to have an objective mesurement (not depending on your computer ) to know time and memory efficient is an algorithm
-
+# Big-O Analysis (asimptotic analysis) --> how quickly runtime will grow relative to the input as the input get arbitrarily large
 import time
+
 
 #example of the sum of all the numbers that are behing in the range of a certain number
 
+# O(n) function
 def sum1(n):
     final_sum = 0
 
@@ -12,9 +14,29 @@ def sum1(n):
         final_sum += x
 
     return final_sum
+# function "sum1" would take always n+1 steps ( always corresponding to the input dimension )
+# sum1 is O(n) --> runtime grows linearly with the input size (linear Big-O)
 
+# 0(1) Constant
 def sum2(n):
     return (n*(n+1))/2
+
+def func_const(value): # regardless the list size we get the first element of the list
+    return value[0]
+
+# O(n) Liniear
+def func_lin(list): # executes as many elements as its input
+    l_output=[]
+    for val in list:
+        l_output.append(val)
+
+# O(n^2) Quadratic
+def func_quad(list): # for n elements we will have to execute n*n operations
+    l_output = []
+    for item_1 in list:
+        for item_2 in list:
+            l_output.append(item_2)
+            l_output.append(item_1)
 
 
 # we check how much time takes to execute these two functions X times
@@ -39,3 +61,4 @@ def checkTimeSum2_Xtimes(n, num_times):
     time_diff = time.time() - i_time
     return time_diff
 """
+
