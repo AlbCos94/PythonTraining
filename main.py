@@ -13,9 +13,9 @@ def main ():
     sum2 = bo.sum2(10)
     print (sum)
     print( "time first function = ")
-    print(bo.checkTimeSum1_Xtimes(10,100000))
+    print(bo.checkTimeFunc1Arg_Xtimes(bo.sum1, 10, 100000))
     print( "time second function = "  )
-    print(bo.checkTimeSum2_Xtimes(10,100000))
+    print(bo.checkTimeFunc1Arg_Xtimes(bo.sum2, 10, 100000))
     print(sum2)
 
 if __name__ == '__main__':

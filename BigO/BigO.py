@@ -19,17 +19,18 @@ def sum2(n):
 
 # we check how much time takes to execute these two functions X times
 # if we check with 100000 times, the second one takes 1/6 of the time of the first one
-def checkTimeSum1_Xtimes(n, num_times):
+# we use a funtion that gets as argument a 1 argument function
+def checkTimeFunc1Arg_Xtimes(func_1_arg, func_arg, num_times):
     i_time = time.time()
 
     for i in range(num_times):
-        sum1(n)
+        func_1_arg(func_arg)
 
     time_diff = time.time() - i_time
 
     return time_diff
 
-
+""" 
 def checkTimeSum2_Xtimes(n, num_times):
     i_time = time.time()
     for i in range(num_times):
@@ -37,3 +38,4 @@ def checkTimeSum2_Xtimes(n, num_times):
 
     time_diff = time.time() - i_time
     return time_diff
+"""
