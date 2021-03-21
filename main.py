@@ -9,7 +9,7 @@ def main ():
     import doctest
     #doctest.testfile("pair_numbers/doctest_pair_numbers")
     #doctest.testfile("ReverseLinkedList/doctest_reverse_list")
-    run_0.run_all_analysis()
+    run_0.run_BigO_DataStructures_analysis()
 
 if __name__ == '__main__':
     main()
