@@ -16,6 +16,7 @@ def main ():
     #ar.behaviour_dyn_arrays(100)
     #ar.Test_DynamicArray_Class()
     ac.diagramV1("HOLA Rohit DADSsss","asdsa WESD")
+    doctest.testfile("ArraySequences/doctest_AnagramCheck")
 
 if __name__ == '__main__':
     main()

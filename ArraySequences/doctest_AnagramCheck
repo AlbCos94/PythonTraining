@@ -1,0 +1,10 @@
+>>> from ArraySequences import AnagramCheck as ac
+
+>>> ac.diagramV1("hola", "halo")
+True
+>>> ac.diagramV1("WE la", "Na LO")
+False
+>>> ac.diagramV1("public relations", "crap built on lies")
+True
+>>> ac.diagramV1("clint eastwood", "old west action")
+True
