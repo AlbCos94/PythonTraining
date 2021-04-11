@@ -8,3 +8,14 @@ False
 True
 >>> ac.diagramV1("clint eastwood", "old west action")
 True
+
+>>> ac.diagramV2("hola", "halo")
+True
+>>> ac.diagramV2("WE la", "Na LO")
+False
+>>> ac.diagramV2("public relations", "crap built on lies")
+True
+>>> ac.diagramV2("clint eastwood", "old west action")
+True
+>>> ac.diagramV2("clint eastewood", "old wesat action")
+False

@@ -9,6 +9,10 @@ Example
 note: spaces and capitalizations can be ignored
 """
 
+"""
+diagramV1:
+used of ordered list of the characters of the strings to check if strings are anagrams
+"""
 def diagramV1(s1,s2):
     # first we remove spaces (spaces can be ignored)
     s1 = s1.replace(" ", "")
@@ -41,3 +45,48 @@ def diagramV1(s1,s2):
         index += 1
 
     return True
+
+"""
+diagramV2:
+used of dictionaries to check if strings are anagrams
+we are gonna build a dictionary from one of the strings such as:
+    key --> character
+    value --> number of times that character appears
+once we got that dictionary, we will compare it with the other string
+"""
+
+def diagramV2(s1,s2):
+    # first we remove spaces (spaces can be ignored)
+    s1 = s1.replace(" ", "")
+    s2 = s2.replace(" ", "")
+    # we remove capital letters (capitaliyatuibs can be ignored)
+    s1 = s1.lower()
+    s2 = s2.lower()
+
+    # if length of both is not the same, we return directly False
+    if len(s1) != len(s2):
+        return False
+
+    # comparison using a dictionary
+    dict_s1 = {}
+
+    # building up the dictionary of ocurrences for characters
+    for character in s1:
+        if character not in dict_s1:
+            dict_s1[character] = 1
+        else:
+            dict_s1[character] += 1
+
+    # comparing the dictionary of ocurrences with the string 2
+    for character in s2:
+        if character in dict_s1:
+            if dict_s1[character] != 0:
+                dict_s1[character] -= 1
+            else:
+                return False
+        else:
+            return False
+
+    return True
+
+
