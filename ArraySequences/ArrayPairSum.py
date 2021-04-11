@@ -56,7 +56,6 @@ def pair_sumV2(arr, k):
 
         if target not in seen:
             seen.add(num)
-
         else:
             output.add( (min(num,target), max(num,target) ) )# we add the pair to the output set and we order it from min to max)
 
