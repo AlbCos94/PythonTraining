@@ -3,7 +3,7 @@ from ReverseLinkedList import reverse_list as rl # from Folder where it is, impo
 from BigO import run_0_analysis as run_0
 from ArraySequences import Arrays as ar
 from ArraySequences import AnagramCheck as ac
-
+from ArraySequences import ArrayPairSum as aps
 
 #from ReverseLinkedList import LinkeList
 
@@ -15,8 +15,10 @@ def main ():
     #run_0.run_BigO_DataStructures_analysis()
     #ar.behaviour_dyn_arrays(100)
     #ar.Test_DynamicArray_Class()
-    ac.anagramV1("HOLA Rohit DADSsss","asdsa WESD")
-    doctest.testfile("ArraySequences/doctest_AnagramCheck")
+    #ac.anagramV1("HOLA Rohit DADSsss","asdsa WESD")
+    #doctest.testfile("ArraySequences/doctest_AnagramCheck")
+    doctest.testfile("ArraySequences/doctest_ArrayPairSum")
+
 
 if __name__ == '__main__':
     main()
