@@ -15,7 +15,7 @@ def main ():
     #run_0.run_BigO_DataStructures_analysis()
     #ar.behaviour_dyn_arrays(100)
     #ar.Test_DynamicArray_Class()
-    ac.diagramV1("HOLA Rohit DADSsss","asdsa WESD")
+    ac.anagramV1("HOLA Rohit DADSsss","asdsa WESD")
     doctest.testfile("ArraySequences/doctest_AnagramCheck")
 
 if __name__ == '__main__':
