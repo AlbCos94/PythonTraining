@@ -7,3 +7,16 @@
 1
 >>> lcs.largest_cont_sumV1([1,23,-223,43])
 43
+>>> lcs.largest_cont_sumV1([-231,-23,-223,-243])
+-23
+
+>>> lcs.largest_cont_sumV2([1,2,-1,3,4,10,10,-10,-1])
+29
+>>> lcs.largest_cont_sumV2([1,2,-1,3,4,10,10])
+29
+>>> lcs.largest_cont_sumV2([1,-1,-3])
+1
+>>> lcs.largest_cont_sumV2([1,23,-223,43])
+43
+>>> lcs.largest_cont_sumV2([-231,-23,-223,-243])
+-23
