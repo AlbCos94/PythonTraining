@@ -17,7 +17,8 @@ def main ():
     #ar.Test_DynamicArray_Class()
     #ac.anagramV1("HOLA Rohit DADSsss","asdsa WESD")
     #doctest.testfile("ArraySequences/doctest_AnagramCheck")
-    doctest.testfile("ArraySequences/doctest_ArrayPairSum")
+    #doctest.testfile("ArraySequences/doctest_ArrayPairSum")
+    doctest.testfile("ArraySequences/doctest_finder_missing")
 
 
 if __name__ == '__main__':
