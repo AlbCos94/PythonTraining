@@ -1,0 +1,58 @@
+>>> from ArraySequences import SentenceReversal as sr
+
+>>> sr.rev_wordV1('Hola Pablo')
+'Pablo Hola'
+>>> sr.rev_wordV1("   Hola Pablo")
+'Pablo Hola'
+>>> sr.rev_wordV1("Hola Pablo    ")
+'Pablo Hola'
+>>> sr.rev_wordV1(" Hola Pablo    ")
+'Pablo Hola'
+>>> sr.rev_wordV1("")
+''
+>>> sr.rev_wordV1("hola")
+'hola'
+>>> sr.rev_wordV1("    space before")
+'before space'
+>>> sr.rev_wordV1("space after    ")
+'after space'
+>>> sr.rev_wordV1("   Hello John   how are you    ")
+'you are how John Hello'
+
+>>> sr.rev_wordV2('Hola Pablo')
+'Pablo Hola'
+>>> sr.rev_wordV2("   Hola Pablo")
+'Pablo Hola'
+>>> sr.rev_wordV2("Hola Pablo    ")
+'Pablo Hola'
+>>> sr.rev_wordV2(" Hola Pablo    ")
+'Pablo Hola'
+>>> sr.rev_wordV2("")
+''
+>>> sr.rev_wordV2("hola")
+'hola'
+>>> sr.rev_wordV2("    space before")
+'before space'
+>>> sr.rev_wordV2("space after    ")
+'after space'
+>>> sr.rev_wordV2("   Hello John   how are you    ")
+'you are how John Hello'
+
+>>> sr.rev_wordV3('Hola Pablo')
+'Pablo Hola'
+>>> sr.rev_wordV3("   Hola Pablo")
+'Pablo Hola'
+>>> sr.rev_wordV3("Hola Pablo    ")
+'Pablo Hola'
+>>> sr.rev_wordV3(" Hola Pablo    ")
+'Pablo Hola'
+>>> sr.rev_wordV3("")
+''
+>>> sr.rev_wordV3("hola")
+'hola'
+>>> sr.rev_wordV3("    space before")
+'before space'
+>>> sr.rev_wordV3("space after    ")
+'after space'
+>>> sr.rev_wordV3("   Hello John   how are you    ")
+'you are how John Hello'
