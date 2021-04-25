@@ -42,4 +42,34 @@ def compressV1(s):
 
     return new_string
 
+"""
+Udemy Solution
+"""
+def compressV2(s):
+    r = ""
+    long = len(s)
 
+    # two edge cases
+
+    if long == 0:
+        return ""
+    if long == 1:
+        return s+"1"
+
+    last = s[0]
+    cnt = 1
+    i = 1
+
+    while i < long:
+        if s[i] == s[i-1]:
+            # series continues
+            cnt += 1
+        else:
+            # no longer in continuos series
+            r = r + s[i-1] + str(cnt)
+            cnt = 1 # reset of the count
+        i += 1
+
+    r = r +s[i-1]+str(cnt)
+
+    return r

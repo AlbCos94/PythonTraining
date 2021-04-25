@@ -10,3 +10,14 @@
 'A3B1C2D5'
 >>> sc.compressV1('')
 ''
+
+>>> sc.compressV2("AAAABBCCSSSSSWWWW")
+'A4B2C2S5W4'
+>>> sc.compressV2("A")
+'A1'
+>>> sc.compressV2("ACCCW")
+'A1C3W1'
+>>> sc.compressV2("AAABCCDDDDD")
+'A3B1C2D5'
+>>> sc.compressV2('')
+''
