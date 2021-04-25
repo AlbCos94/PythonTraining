@@ -1,0 +1,25 @@
+"""
+Given a string in the form "AAAABBBBCCCCCDDEEEE" compress it to become "A4B4C5D2E4".
+"""
+
+"""
+my solution
+"""
+def compressV1(s):
+    previous_char = s[0]
+    new_string = ''
+    char_repetitions = 1
+
+    for letter in s[1:]:
+        if letter == previous_char:
+            char_repetitions += 1
+            previous_char = letter
+        else:
+            new_string += previous_char + str(char_repetitions)
+            # reset next character count
+            char_repetitions = 1
+            previous_char = letter
+
+    return new_string
+
+

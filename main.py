@@ -4,8 +4,8 @@ from BigO import run_0_analysis as run_0
 from ArraySequences import Arrays as ar
 from ArraySequences import AnagramCheck as ac
 from ArraySequences import ArrayPairSum as aps
-from ArraySequences import SentenceReversal as sr
-
+#from ArraySequences import SentenceReversal as sr
+from ArraySequences import StringCompression as sss
 
 
 def main ():
@@ -20,10 +20,12 @@ def main ():
     #doctest.testfile("ArraySequences/doctest_ArrayPairSum")
     #doctest.testfile("ArraySequences/doctest_finder_missing")
     #doctest.testfile("ArraySequences/doctest_largest_cont_sum")
-    doctest.testfile("ArraySequences/doctest_sentence_reversal")
+    #doctest.testfile("ArraySequences/doctest_sentence_reversal")
 
-    #s = sr.rev_wordV1("hola pablo  ")
-    #print(s)
+    s = "AAAABBCCSSSSSWWWW"
+    print(sss.compressV1(s))
+
+
 
 if __name__ == '__main__':
     main()
