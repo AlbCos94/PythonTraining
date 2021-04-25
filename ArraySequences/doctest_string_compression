@@ -1,0 +1,12 @@
+>>> from ArraySequences import StringCompression as sc
+
+>>> sc.compressV1("AAAABBCCSSSSSWWWW")
+'A4B2C2S5W4'
+>>> sc.compressV1("A")
+'A1'
+>>> sc.compressV1("ACCCW")
+'A1C3W1'
+>>> sc.compressV1("AAABCCDDDDD")
+'A3B1C2D5'
+>>> sc.compressV1('')
+''

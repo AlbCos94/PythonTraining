@@ -21,9 +21,10 @@ def main ():
     #doctest.testfile("ArraySequences/doctest_finder_missing")
     #doctest.testfile("ArraySequences/doctest_largest_cont_sum")
     #doctest.testfile("ArraySequences/doctest_sentence_reversal")
+    doctest.testfile("ArraySequences/doctest_string_compression")
 
-    s = "AAAABBCCSSSSSWWWW"
-    print(sss.compressV1(s))
+    #s = "AAAABBCCSSSSSWWWW"
+    #print(sss.compressV1(s))
 
 
 
