@@ -10,11 +10,18 @@ def compressV1(s):
     new_string = ''
     char_repetitions = 1
 
-    for letter in s[1:]:
-        if letter == previous_char:
+    for i in range(1,len(s)):
+        letter = s[i]
+        if i == (len(s)-1):
+            #we reached the last character
+            char_repetitions += 1
+            new_string += previous_char + str(char_repetitions)
+        elif letter == previous_char:
+            # the chain of letters continue
             char_repetitions += 1
             previous_char = letter
         else:
+            # letter found, is different to the previous one
             new_string += previous_char + str(char_repetitions)
             # reset next character count
             char_repetitions = 1
