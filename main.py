@@ -6,6 +6,7 @@ from ArraySequences import AnagramCheck as ac
 from ArraySequences import ArrayPairSum as aps
 #from ArraySequences import SentenceReversal as sr
 from ArraySequences import StringCompression as sss
+from ArraySequences import UniqueCharacters as uc
 
 
 def main ():
@@ -21,10 +22,9 @@ def main ():
     #doctest.testfile("ArraySequences/doctest_finder_missing")
     #doctest.testfile("ArraySequences/doctest_largest_cont_sum")
     #doctest.testfile("ArraySequences/doctest_sentence_reversal")
-    doctest.testfile("ArraySequences/doctest_string_compression")
+    #doctest.testfile("ArraySequences/doctest_string_compression")
+    doctest.testfile("ArraySequences/doctest_unique_characters")
 
-    #s = "AAAABBCCSSSSSWWWW"
-    #print(sss.compressV1(s))
 
 
 

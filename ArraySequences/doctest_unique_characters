@@ -1,0 +1,28 @@
+>>> from ArraySequences import UniqueCharacters as uc
+
+>>> uc.uni_char('Hola')
+True
+>>> uc.uni_char("Paablo")
+False
+>>> uc.uni_char("aabo")
+False
+>>> uc.uni_char("")
+True
+
+>>> uc.uni_charV2('Hola')
+True
+>>> uc.uni_charV2("Paablo")
+False
+>>> uc.uni_charV2("aabo")
+False
+>>> uc.uni_charV2("")
+True
+
+>>> uc.uni_charV3('Hola')
+True
+>>> uc.uni_charV3("Paablo")
+False
+>>> uc.uni_charV3("aabo")
+False
+>>> uc.uni_charV3("")
+True
