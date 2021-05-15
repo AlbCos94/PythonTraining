@@ -1,0 +1,23 @@
+>>> from StacksQueuesDeques import QueueClass as qc
+
+>>> q = qc.Queue()
+>>> q.isEmpty()
+True
+>>> q.enqueue('a')
+>>> q.enqueue(2)
+>>> q.enqueue(3)
+>>> q.enqueue(True)
+>>> q.isEmpty()
+False
+>>> q.dequeue()
+'a'
+>>> q.dequeue()
+2
+>>> q.dequeue()
+3
+>>> q.print_elements()
+True
+>>> q.dequeue()
+True
+>>> q.isEmpty()
+True

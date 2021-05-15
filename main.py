@@ -25,7 +25,8 @@ def main ():
     #doctest.testfile("ArraySequences/doctest_sentence_reversal")
     #doctest.testfile("ArraySequences/doctest_string_compression")
     #doctest.testfile("ArraySequences/doctest_unique_characters")
-    doctest.testfile("StacksQueuesDeques/doctest_stack_class")
+    #doctest.testfile("StacksQueuesDeques/doctest_stack_class")
+    doctest.testfile("StacksQueuesDeques/doctest_queue_class")
 
 
 
