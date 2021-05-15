@@ -7,6 +7,7 @@ from ArraySequences import ArrayPairSum as aps
 #from ArraySequences import SentenceReversal as sr
 from ArraySequences import StringCompression as sss
 from ArraySequences import UniqueCharacters as uc
+from StacksQueuesDeques import StackClass as sc
 
 
 def main ():
@@ -23,7 +24,8 @@ def main ():
     #doctest.testfile("ArraySequences/doctest_largest_cont_sum")
     #doctest.testfile("ArraySequences/doctest_sentence_reversal")
     #doctest.testfile("ArraySequences/doctest_string_compression")
-    doctest.testfile("ArraySequences/doctest_unique_characters")
+    #doctest.testfile("ArraySequences/doctest_unique_characters")
+    doctest.testfile("StacksQueuesDeques/doctest_stack_class")
 
 
 

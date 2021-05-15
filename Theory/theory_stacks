@@ -1,0 +1,19 @@
+STACK
+
+A stack is an ordered collection of items where the addition of new items and the removal of existing items always takes place at the same end
+
+This end is commonly referred as the "top"
+
+The end opposite the top is known as the "base"
+
+Its ordering principle is called LIFO --> Last In First Out
+
+It provides an ordering based on length of time in the collection
+
+Newer items are near the top, while older items are near the base
+
+push --> to put new element on the top of the stack
+pop --> to remove items from the top of the stack
+
+Usefull to reverse the order of items ( e.g. Back Button in a browser)
+The order of insertion is the reverse of the order of removal

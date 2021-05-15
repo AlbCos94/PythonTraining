@@ -1,0 +1,34 @@
+>>> from StacksQueuesDeques import StackClass as sc
+
+>>> s = sc.Stack()
+>>> s.isEmpty()
+True
+>>> s.push('a')
+>>> s.push(2)
+>>> s.push(21)
+>>> s.isEmpty()
+False
+>>> s.peek()
+21
+>>> s.pop()
+21
+>>> s.peek()
+2
+>>> s.print_elements()
+a
+2
+>>> s.size()
+2
+>>> s.push(True)
+>>> s.print_elements()
+a
+2
+True
+>>> s.pop()
+True
+>>> s.pop()
+2
+>>> s.pop()
+'a'
+>>> s.isEmpty()
+True
